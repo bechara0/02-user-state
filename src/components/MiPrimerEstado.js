@@ -14,7 +14,7 @@ export const MiPrimerEstado = () => {
 	return (
 		<div>
 			<h3>Componente: Mi primer estado</h3>
-			<strong className="label">{nombre}</strong>
+			<strong className={nombre.length > 5 ? "rojo" : "verde"}>{nombre}</strong>
 			<br />
 			<button onClick={(e) => cambiarNombre(e, "bechara0")}>
 				Cambiar por Bechara0

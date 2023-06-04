@@ -44,3 +44,16 @@
   padding: 5px;
   color: #444
 }
+
+.rojo {
+  color: red;
+}
+
+.verde {
+  color: green;
+}
+
+.label-green {
+  background-color: rgb(126, 199, 17);
+  color: #a10000;
+}
